@@ -74,13 +74,28 @@ WSGI_APPLICATION = 'quickstart.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 # You'll modify the 'default' entry below to connect to Snowflake instead
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django_snowflake',
+        'NAME': 'DJANGO_DB',
+        'SCHEMA': 'PUBLIC',
+        'WAREHOUSE': 'COMPUTE_WH',
+        'USER': 'VictorLechovolea',
+        'PASSWORD': 'Trial2024.',
+        'ACCOUNT': 'HGRJZVI-ZQ76884',
+        # Include 'OPTIONS' if you need to specify any other
+        # snowflake.connector.connect() parameters.
+        # https://docs.snowflake.com/en/user-guide/python-connector-api.html#connect
+        'OPTIONS': {},
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
