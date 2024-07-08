@@ -87,9 +87,9 @@ DATABASES = {
         'NAME': 'DJANGO_DB',
         'SCHEMA': 'PUBLIC',
         'WAREHOUSE': 'COMPUTE_WH',
-        'USER': 'VictorLechovolea',
-        'PASSWORD': 'Trial2024.',
-        'ACCOUNT': 'HGRJZVI-ZQ76884',
+        'USER': 'VICTORLECHOVOLEA',
+        'PASSWORD': 'Temp1234',
+        'ACCOUNT': 'YSLKBCY-OJ25149',
         # Include 'OPTIONS' if you need to specify any other
         # snowflake.connector.connect() parameters.
         # https://docs.snowflake.com/en/user-guide/python-connector-api.html#connect

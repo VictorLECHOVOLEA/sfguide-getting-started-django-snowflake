@@ -1,0 +1,38 @@
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart>
+
+
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart>
+
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart>
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake> cd quickstart
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py inspectdb TRIP > generated_models.py
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py makemigrations trips
+No changes detected in app 'trips'
+PS C:\.Programming\sfguide-getting-started-django-snowflake\quickstart> python manage.py migrate trips
+
+
+git clone https://github.com/Snowflake-Labs/sfguide-getting-started-django-snowflake.git && cd sfguide-getting-started-django-snowflake/
+pip install django
+python manage.py runserver
+
+python -m django --version
+pip install django-snowflake==5.0.*
+localhost:8000/trips/from/graham-conselyea
+
+https://docs.djangoproject.com/en/5.0/topics/db/multi-db/
+
+
+python manage.py createsuperuser
